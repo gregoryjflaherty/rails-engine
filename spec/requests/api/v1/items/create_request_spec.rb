@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe "Item Index API" do
+describe "Item Create API" do
   it "can create a new item" do
     merchant = Merchant.create!(name: "Fake Merchant")
 
