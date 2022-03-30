@@ -1,7 +1,12 @@
 Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
-      resources :items 
+      resources :items do
+        resources :merchant, only: [:index], controller: :item_merchants, action: :show
+      end
+      resources :merchants, only: [:index, :show] do
+        resources :items, only: [:index], controller: :item_merchants
+      end
     end
   end
 end
