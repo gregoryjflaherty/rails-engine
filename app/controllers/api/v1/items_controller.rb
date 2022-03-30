@@ -1,20 +1,26 @@
 class Api::V1::ItemsController < ApplicationController
-  before_action :find_item, only: [:show, :update]
+  before_action :find_item, only: [:show, :update, :destroy]
 
   def index
-    render json: Item.all
+    render json: ItemSerializer.new(Item.all)
   end
 
   def show
-    render json: @item
+    @item = Item.find(params[:id])
+    render json: ItemSerializer.new(@item)
   end
 
   def create
-    render json: Item.create(item_params)
+    render json: ItemSerializer.new(Item.create!(item_params)), status: :created
   end
 
   def update
-    render json: @item.update(item_params)
+    @item.update!(item_params)
+    render json: ItemSerializer.new(@item)
+  end
+
+  def destroy
+    render json: ItemSerializer.new(@item.destroy!)
   end
 
   private
