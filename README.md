@@ -1,4 +1,3 @@
-# README
 
 # Rails Engine
 
@@ -12,16 +11,15 @@
   - [Built With](#built-with)
 
 
-##### Author
+## Author
 
-  - **Greg Flaherty**<br>
+   ### Greg Flaherty <br>
    [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/gregoryjflaherty)<br>
-   [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/gregoryjflaherty)<br>
+   [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/gregjflaherty.svg?style=social&label=Follow%20%40gregjflaherty)](https://twitter.com/gregjflaherty)
 
 
-<div class="center">
+![alt text](https://user-images.githubusercontent.com/87443686/161275037-2fcb9079-ea22-41f7-84b2-e217c10f06fe.png)
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">First repository that exposes API endpoints - will host on Heroku next <a href="https://twitter.com/hashtag/backend?src=hash&amp;ref_src=twsrc%5Etfw">#backend</a> <a href="https://twitter.com/hashtag/rails?src=hash&amp;ref_src=twsrc%5Etfw">#rails</a> <a href="https://twitter.com/hashtag/ruby?src=hash&amp;ref_src=twsrc%5Etfw">#ruby</a> <a href="https://twitter.com/hashtag/webdevelopment?src=hash&amp;ref_src=twsrc%5Etfw">#webdevelopment</a> <a href="https://t.co/KdUR0rOXoC">https://t.co/KdUR0rOXoC</a></p>&mdash; Greg Flaherty ⚡️ (@gregjflaherty) <a href="https://twitter.com/gregjflaherty/status/1509879396953473030?ref_src=twsrc%5Etfw">April 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </div>
 
@@ -29,9 +27,13 @@
 
 ## Utilizing This Repository
 
-
+- Fork this repo and clone down to local computer
+- CD into repository 
+- Run rails s to start your server
+- In browser - go to localhost:3000 and enter in your end point of choice 
   
 ## API End Points
+
 
 
 
