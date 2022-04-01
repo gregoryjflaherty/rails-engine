@@ -20,7 +20,8 @@ class Api::V1::ItemsController < ApplicationController
   end
 
   def destroy
-    render json: ItemSerializer.new(@item.destroy!)
+    ItemFacade.destroy_invoices(@item.get_invoices)
+    @item.destroy!
   end
 
   private
