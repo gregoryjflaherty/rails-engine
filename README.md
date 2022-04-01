@@ -8,6 +8,7 @@
   - [Author](#author)
   - [Utilizing This Repository](#utilizing-this-repository)
   - [API End Points](#api-end-points)
+  - [Collaboration](#collaboration)
   - [Built With](#built-with)
 
 
@@ -35,6 +36,10 @@
 ## API End Points
 
 
+## Collaboration
+
+- If feedback, ideas to improve or general comments arise feel free to message me via the platforms listed above
+- If improvements in code arise, feel free to create a branch, implement such code, and create a PR request
 
 
 ## Built With
