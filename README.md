@@ -12,11 +12,15 @@
   - [Built With](#built-with)
 
 
-## Author
+##### Author
 
   - **Greg Flaherty**<br>
-    [GitHub](https://github.com/gregoryjflaherty)<br>
+   [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/gregoryjflaherty)<br>
+   [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/gregoryjflaherty)<br>
+   https://twitter.com/gregjflaherty/status/1509879396953473030
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">First repository that exposes API endpoints - will host on Heroku next <a href="https://twitter.com/hashtag/backend?src=hash&amp;ref_src=twsrc%5Etfw">#backend</a> <a href="https://twitter.com/hashtag/rails?src=hash&amp;ref_src=twsrc%5Etfw">#rails</a> <a href="https://twitter.com/hashtag/ruby?src=hash&amp;ref_src=twsrc%5Etfw">#ruby</a> <a href="https://twitter.com/hashtag/webdevelopment?src=hash&amp;ref_src=twsrc%5Etfw">#webdevelopment</a> <a href="https://t.co/KdUR0rOXoC">https://t.co/KdUR0rOXoC</a></p>&mdash; Greg Flaherty ⚡️ (@gregjflaherty) <a href="https://twitter.com/gregjflaherty/status/1509879396953473030?ref_src=twsrc%5Etfw">April 1, 2022</a></blockquote>
+  
 
 ## Utilizing This Repository
 
