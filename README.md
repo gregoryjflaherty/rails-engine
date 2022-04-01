@@ -32,6 +32,8 @@
 - CD into repository 
 - Run rails s to start your server
 - In browser - go to localhost:3000 and enter in your end point of choice 
+- Relational database of content goes as follows: 
+![alt text](https://user-images.githubusercontent.com/87443686/161279206-3b5b3d68-0d5c-4760-8d0f-a08f93f4feb5.png)
   
 ## API End Points
 
