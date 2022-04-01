@@ -37,6 +37,34 @@
   
 ## API End Points
 
+#### Items
+* GET all items `http://localhost:3000/api/v1/items` 
+* GET a single item `http://localhost:3000/api/v1/merchants/:id`
+* POST create an item `localhost:3000/api/v1/items` --- use with JSON body
+* UPDATE an item `localhost:3000/api/v1/items/:id` --- use with JSON body
+* DESTROY an item `localhost:3000/api/v1/items/:id` NOTE ** if this item is the only item left on a particular invoice, that invoice will also be destroyed
+
+#### Merchants
+* GET all merchants `http://localhost:3000/api/v1/merchants` 
+* GET a single merchant `http://localhost:3000/api/v1/merchants/:id`
+
+#### Item/Merchant Relationship
+
+* GET all items belonging to a merchant `http://localhost:3000/api/v1/merchants/:id/items`
+* GET the merchant belonging to an item `http://localhost:3000/api/v1/items/:id/merchant`
+
+#### Searching 
+##### Find
+  * Search Item by name `http://localhost:3000/api/v1/items/find?name=`
+  * Search Item by min price `http://localhost:3000/api/v1/items/find?min_price=`
+  * Search Item by max price `http://localhost:3000/api/v1/items/find?max_price=`
+  * Search Item by price range`http://localhost:3000/api/v1/items/find?max_price=10&min_price=1`
+  * Search Merchant by name `http://localhost:3000/api/v1/merchants/find?name=`
+  
+
+##### Find all - `provides list of first 18`
+  * Search All Items by name `http://localhost:3000/api/v1/items/find?name=`
+  * Search All Merchants by name `http://localhost:3000/api/v1/merchants/find?name=`
 
 ## Collaboration
 
